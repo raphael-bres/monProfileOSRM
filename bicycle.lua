@@ -2,13 +2,13 @@
 
 api_version = 4
 
-Set = require('lib/set')
-Sequence = require('lib/sequence')
-Handlers = require("lib/way_handlers")
-TrafficSignal = require("lib/traffic_signal")
-find_access_tag = require("lib/access").find_access_tag
-limit = require("lib/maxspeed").limit
-Measure = require("lib/measure")
+Set = require('https://github.com/Project-OSRM/osrm-backend/tree/6f235cca152e8e1263078e77e20117a832674951/profiles/lib/set')
+Sequence = require('https://github.com/Project-OSRM/osrm-backend/tree/6f235cca152e8e1263078e77e20117a832674951/profiles/lib/sequence')
+Handlers = require("https://github.com/Project-OSRM/osrm-backend/tree/6f235cca152e8e1263078e77e20117a832674951/profiles/lib/way_handlers")
+TrafficSignal = require("https://github.com/Project-OSRM/osrm-backend/tree/6f235cca152e8e1263078e77e20117a832674951/profiles/lib/traffic_signal")
+find_access_tag = require("https://github.com/Project-OSRM/osrm-backend/tree/6f235cca152e8e1263078e77e20117a832674951/profiles/lib/access").find_access_tag
+limit = require("https://github.com/Project-OSRM/osrm-backend/tree/6f235cca152e8e1263078e77e20117a832674951/profiles/lib/maxspeed").limit
+Measure = require("https://github.com/Project-OSRM/osrm-backend/tree/6f235cca152e8e1263078e77e20117a832674951/profiles/lib/measure")
 
 function setup()
   local default_speed = 15
